@@ -1,0 +1,104 @@
+------------------------------------------------------------ SCREEN -------------------------------------------------------------
+
+FIXME: DONE 1. Start the Screen  DONE
+
+1. Create the Black Screen. DONE
+
+2. Set the dimensions 800x600. DONE
+
+------------------------------------------------------------ PADDLES -------------------------------------------------------------
+
+FIXME: DONE 2. class Paddle  DONE
+
+1. Create 2x Paddles -> Racket DONE
+
+2. Give the Paddle a long body perhaps consisting of 4-5 turtles DONE
+
+3. Position the paddle far left and far right DONE
+
+4. Enable Paddles to move up and down DONE
+
+5. Left paddle controlled by player right paddle make it computer controlled DONE
+
+6. Right Paddle moves up until the end then returns down until the end continuously. DONE
+
+7. Establish player 2 prompt the user to choice 2 players or play against the computer. DONE
+
+8. if 2 players then player 1 moves up with "w" and down by "s". player 2 moves up by "up key" and down by "down key". DONE
+
+9. Make the player not to able to leave screen. DONE
+
+10. if computer is playing when computer touch end of screen move it in opposite direction. DONE
+
+------------------------------------------------------------ Ball -------------------------------------------------------------
+
+FIXME: DONE 3. class Ball DONE
+
+1. Create a square Ball. DONE
+
+2. Start the ball by moving it towards player one or computer to in northwest/northeast direction. DONE
+
+------------------------------------------------------------ Ball and Wall Collision -------------------------------------------------------------
+
+FIXME: DONE 4. Ball and Wall Collision DONE
+
+1. If ball hits upper or bottom walls then send the ball back into the Screen. DONE
+
+2. Depending on the from direction of the ball upon wall contact continue sending the ball into screen example: DONE
+ 2a. if ball traveling from northwest contacts upper wall, then send the ball back into screen to travel downwards towards southwest. DONE
+ 2b. if ball traveling from northeast contacts upper wall, then send the ball back into screen to travel downwards towards southeast. DONE
+ 2c. if ball traveling from southwest contacts bottom wall, then send the ball back into screen to travel upwards towards northwest. DONE
+ 2d. if ball traveling from southeast contacts bottom wall, then send the ball back into screen to travel upwards towards northeast. DONE
+
+------------------------------------------------------------ Paddle and Ball -------------------------------------------------------------
+
+FIXME: DONE 5. Paddle and Ball Collision DONE
+
+1. Ball hits Paddle collision send ball back towards the opposite direction. DONE
+
+2. If ball contacts the paddle in the middle send the ball back to go opposite direction but in straight! DONE
+
+3. if the ball contacts the paddle below its middle segment then send the ball in a downward direction depending on player 1 or computer/player 2. DONE
+ 3a. if the ball contacts player 1 below the middle segment send the ball back to travel southeast. DONE
+ 3b. if the ball contacts computer/player 2 below the middle segment send the ball back to travel southwest. DONE
+
+4. if the ball contacts the paddle above its middle segment then send the ball in a upward direction depending on player 1 or computer/player 2. DONE
+ 4a. if the ball contacts player 1 above the middle segment send the ball back to travel northeast. DONE
+ 4b. if the ball contacts computer/player 2 below the middle segment send the ball back to travel northwest. DONE
+
+------------------------------------------------------------ Scoreboard -------------------------------------------------------------
+
+FIXME: DONE 6. class Scoreboard
+
+1. Make the central lines as in dashes in intervals pipes (|) accors the entire vertical line at positon x = 0. DONE
+
+2. Keep track of the score for both player 1 and computer/player 2 place the scores on the top example: DONE
+ 2a. Player 1 score placed left of the pipe in the top example 3 |. DONE
+ 2b. computer/player 2 score placed right of the pipe in the top example | 2. DONE
+ 2c. In the end player1 and computer/player2 score should look like 3 | 2. DONE
+
+3. Keep a variable for the Max score DONE
+
+------------------------------------------------------------ Add to the score -------------------------------------------------------------
+
+FIXME: DONE 7. Add to the Score DONE
+
+1. If paddle misses the ball and ball goes past the screen + 30 then restart the ball to the center and add the score to the side that scored. DONE
+
+2. If max score is reached then ask the player to restart the game or end the game. DONE
+
+3. if end game congratulate the winner. DONE
+
+------------------------------------------------------------ Make the computer play smarter -------------------------------------------------------------
+
+FIXME: DONE 7. Make the computer play better
+
+1. Put different levels easy, medium, and hard. DONE
+
+2. Make ball travel faster for hard. DONE
+
+3. On medium make ball travel faster if computer segment 1, mid segment, and last segment touch ball. DONE
+
+4. Keep ball at normal speed if segment 2 and 3 touch ball. DONE
+
+5. Make the computer smarter and play better by following the direction in a smart way. DONE
